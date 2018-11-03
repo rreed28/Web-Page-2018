@@ -1,0 +1,1306 @@
+/*EVERY PAGE*/
+* {
+	font-family: 'Maven Pro', sans-serif;
+}
+.centering {
+     text-align: center;
+ }
+ .push-2 {
+ 	display: flex;
+    justify-content: flex-end;
+ }
+ h1 {
+ 	font-size: 36px;
+ }
+ h2 {
+     color: #136e91;
+     font-size: 36px;
+     text-align: center;
+     margin-bottom: 30px;
+ }
+
+/*HEADER & NAVIGATION*/
+/*navigation*/
+nav {
+	background-color: #4B87C5;
+    padding: 10px 0;
+    border: 20px solid #23527c;
+}
+nav ul li {
+	list-style: none;
+}
+nav ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+}
+nav ul li a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+/*FOOTER*/
+
+
+/*INDEX SPECIFIED*/
+
+/*top header*/
+ .full-banner {
+     background-color: #9d3477;
+     height: 450px;
+     margin-bottom: 0;
+ }
+ .full-banner h1 {
+ 	color: #fff;
+ }
+  .articleheading {
+     margin-top: 10%;
+ }
+ .full-banner .background-dark-article {
+     background-color: #7c295e;
+     padding: 20px 30px 20px 55px;
+     min-height: 145px;
+     margin: 20px 0;
+     position: relative;
+ }
+ .full-banner .mainimg-ecommerce {
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    width: 22%;
+ }
+ .line2 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    display: block;
+ }
+ .underline {
+     text-decoration: underline;
+ }
+/* article*/
+ .pngHeader { 
+ 	width: 30%;
+}
+.extraRow {
+	display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.articleTitle {
+     font-size: 26px;
+     text-align: center;
+     font-weight: bold;
+ }
+  a.headlineName {
+     margin-top: 10px;
+     font-weight: bold;
+     color: #000000;
+     text-decoration: none;
+ }
+/*section 2*/
+ .orangeList {
+     padding: 25px 0px 0px 30px;
+     border-left: #FF704D 10px solid;
+     margin: 0px 0 50px 0;
+     min-height: 295px;
+ }
+ .orangeList ul {
+     color: #3c3c3c;
+     margin-top: -10px;
+     list-style: square;
+ }
+ h2.titleWPic {
+     font-size: 36px;
+     font-weight: bold;
+     color: #4B87C5;
+     text-align: left;
+ }
+/*Banner 2*/
+ .full-banner-2 {
+     background-color: #2f8c15;
+     margin-bottom: 40px;
+     height: 450px;
+
+ }
+ .full-banner-2 .background-dark-article {
+     background-color: #256e11;
+     padding: 30px 30px 0px 30px;
+     min-height: 145px;
+     margin: 20px 0;
+     position: relative;
+ }
+ .full-banner-2 .faux-h1 {
+     color: white;
+     font-size: 36px;
+ }
+ .full-banner-2 .line2 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    display: block;
+ }
+ .full-banner-2 .mainimg-ecommerce {
+    position: absolute;
+    top: -40px;
+    right: -5px;
+    width: 18%;
+ }
+.borderBlue {
+	border: 3px solid #4B87C5;
+}
+.png15 {
+	width: 15%;
+}
+.calloutBox {
+	padding: 20px 0;
+}
+
+/*PAGE 2*/
+
+
+/*PAGE 3*/
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width:992px) {
+	.full-banner .mainimg-ecommerce {
+		top: -15px;
+    	right: -35px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.push-2 {
+	 	display: block;
+	 }
+}
+
+
+
+
+
+
+
+ .marginExtra {
+     margin-bottom: 20px;
+ }
+
+ #author {
+     width: 100%;
+     padding-top: 15px
+ }
+
+ #author-name {
+     width: 65%;
+     padding: 0;
+     margin-top: 22px;
+ }
+
+ .video {
+     margin: 30px 0;
+     text-align: center;
+ }
+
+ .video iframe {
+     width: 60%;
+     height: 375px;
+ }
+
+
+
+ .talk-to-us {
+     text-align: center;
+ }
+
+
+
+ @media only screen and (max-width:949px) {
+     .full-banner {
+         height: 605px;
+         margin-right: -14px;
+     }
+
+     .articleheading {
+         margin-top: 25px;
+     }
+
+     .full-banner .background-dark-article {
+         width: 100%;
+         min-height: 200px;
+         padding: 15px 25px 15px 25px;
+         margin-bottom: 20px;
+     }
+
+     h1 {
+         font-size: 30px !important;
+         line-height: 32px !important;
+         text-align: left;
+     }
+
+
+
+     .full-banner-2 .background-dark-article {
+         width: 100%;
+         padding: 15px 25px 15px 25px;
+         min-height: 100px;
+     }
+
+     .video iframe {
+         width: 100%;
+         height: 200px;
+     }
+
+     h2 {
+         font-size: 32px !important;
+     }
+
+     .mobileEimg {
+         top: 16%;
+     }
+
+     .fourteen .eight {
+         margin-top: 190px;
+     }
+ }
+
+ @media only screen and (max-width:525px) {
+     .full-banner .background-dark-article {
+         max-width: 250px
+     }
+
+     .full-banner-2 .background-dark-article {
+         max-width: 250px
+     }
+
+     #author {
+         margin-top: -5px;
+     }
+ }
+
+ h1 {
+     color: #009D7D;
+     margin: 10px 0;
+     font-size: 34px;
+     line-height: 1.1;
+ }
+
+ h2 {
+     color: #4B87C5;
+     font-size: 32px;
+     font-weight: 500;
+     line-height: 1.1;
+ }
+
+ p {
+     font-size: 14px;
+ }
+
+ .obxremovePadding {
+     padding: 0 !important;
+ }
+
+
+ /*SHOWROOM SPECIFIED*/
+     {
+     font-family: 'Maven Pro', sans-serif;
+     padding: 0;
+     margin-top: -20px;
+ }
+
+ /*TOP BANNER*/
+ .bannerTopCabinets {
+     background: url('{{media url="wysiwyg/BristolChocolate.png"}}');
+     height: 394px;
+     background-size: cover;
+     position: relative;
+     margin-left: -32%;
+     margin-right: -30%;
+ }
+
+ .bannerTopCabinets .savingBlock {
+     background-color: rgba(53, 72, 92, .69);
+     position: absolute;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 0;
+     top: 15%;
+     text-align: center;
+     width: 30%;
+     color: #fff;
+     padding: 20px 20px 40px 20px;
+     width: 500px;
+     min-height: 200px;
+ }
+
+ .showroomTitle {
+     font-size: 50px;
+     line-height: 1.2;
+ }
+
+ .showroomBlack {
+     font-weight: 900;
+     font-size: 34px;
+     line-height: 34px;
+     margin: 20px 0;
+ }
+
+ .obxUppercase {
+     text-transform: uppercase;
+ }
+
+ /*BUTTONS*/
+ .showBtn {
+     padding: 15px 25px;
+     color: white;
+     border: none;
+     min-width: 180px
+ }
+
+ a {
+     text-decoration: none;
+     font-size: 12px;
+     font-weight: 700;
+     color: #fff
+ }
+
+ .salmon {
+     background-color: #FF704D
+ }
+
+ .green {
+     background-color: #0D9C7D
+ }
+
+ /*MAIN CONTENT*/
+ .mainOverlay {
+     background-color: #35485C;
+     position: absolute;
+     width: 45%;
+     padding: 20px;
+     bottom: 0;
+     left: 0;
+     display: flex;
+ }
+
+ .showText {
+     width: 65%;
+     color: #fff;
+ }
+
+ #mainShowroom .mainTop {
+     border: 1px solid #CCCCCC;
+     box-shadow: 0px 3px 6px #00000029;
+     position: relative;
+     background: #fff;
+ }
+
+ #mainShowroom .mainTop #map {
+     width: 100%;
+     height: 400px;
+     background-color: grey;
+ }
+
+ #mainShowroom .showH1Block {
+     padding: 20px;
+ }
+
+ .showText p {
+     margin-bottom: 5px;
+     font-size: 18px;
+ }
+
+ .showText .addressHere {
+     font-size: 14px;
+     display: block;
+     margin-bottom: 3px;
+ }
+
+ /*Middle 1*/
+ #mainMiddle .showroomFloats {
+     display: flex;
+ }
+
+ #mainMiddle .showroomIcon {
+     width: 80px;
+ }
+
+ #mainMiddle .showroomFloats h2 {
+     width: 88%;
+     margin-left: 2%;
+     margin-bottom: 10px;
+ }
+
+ #mainMiddle .calendarBorder {
+     border: 1px solid #CCCCCC;
+     box-shadow: 0px 3px 6px #00000029;
+     position: relative;
+     width: 50px;
+     height: 50px;
+ }
+
+ #mainMiddle .calendarBorder .topBlue {
+     width: 100%;
+     height: 10px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     background-color: #35485C;
+ }
+
+ #mainMiddle #showRoomTimes ul li {
+     list-style: none;
+     display: flex;
+     margin: 15px 0;
+ }
+
+ #mainMiddle #showRoomTimes ul {
+     padding: 0 5px;
+ }
+
+ #mainMiddle #showRoomTimes {
+     display: flex;
+ }
+
+ #mainMiddle #showRoomTimes .leftShowroomColumn,
+ #mainMiddle #showRoomTimes .rightShowroomColumn {
+     width: 50%;
+ }
+
+ #mainMiddle #showRoomTimes .calendarLetter {
+     position: absolute;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 0;
+     top: 30%;
+     width: 100%;
+     color: #FF704D;
+     font-size: 16px;
+     font-weight: 700;
+     text-align: center;
+ }
+
+ #mainMiddle .showroomCalendar {
+     width: 25%;
+ }
+
+ #mainMiddle #showRoomTimes .obxtimeAndDays {}
+
+ #mainMiddle #showRoomTimes .obxtimeAndDays .obxday {
+     color: #4B87C5;
+     text-transform: uppercase;
+     font-weight: 700;
+     font-size: 20px;
+     display: block;
+ }
+
+ #mainMiddle #showRoomTimes .obxtimeAndDays .obxtime {
+     color: #212121;
+     font-size: 20px;
+ }
+
+ /*MIDDLE 2*/
+ #mainMiddle2 {
+     margin-bottom: 40px;
+     border: 1px solid #CCCCCC;
+     box-shadow: 0px 3px 6px #00000029;
+     position: relative;
+     background: #fff;
+ }
+
+ .showGradient {
+     margin-top: 80px;
+     margin-bottom: 90px;
+ }
+
+ #mainMiddle2 .buttonOverImage {
+     background: url('{{media url="wysiwyg/image-left.jpg"}}') no-repeat;
+     background-size: cover;
+     min-height: 100%;
+     position: relative;
+     margin: 0;
+     padding: 0;
+ }
+
+ #mainMiddle2 .buttonOverImage button {
+     position: absolute;
+     left: 19%;
+     right: 0;
+     bottom: 40px;
+     text-align: center;
+ }
+
+ #mainMiddle2 .addedPadding {
+     padding: 30px 40px 30px 40px;
+ }
+
+ #mainMiddle2 h2 {
+     margin-bottom: 20px;
+ }
+
+ p.obxBoldBlue {
+     color: #35485C;
+     font-size: 40px;
+     text-align: center;
+     font-weight: 700;
+     line-height: 1.1;
+     margin-top: 90px;
+ }
+
+ .showProducts img {
+     width: 100%;
+ }
+
+ p.obxLightBlue {
+     color: #4B87C5;
+     font-size: 32px;
+     font-weight: 500;
+     text-align: center;
+     line-height: 1.1;
+ }
+
+ p.obxCabinetP {
+     padding: 0 60px;
+     text-align: center;
+ }
+
+ /*Middle Cabinets*/
+ #mainMiddleCabinet {
+     margin: 20px 0;
+ }
+
+ #mainMiddleCabinet .companyNameBoxes {
+     background: linear-gradient(180deg, #FFFFFF, #CCCCCCCC);
+     border: 1px solid #CCCCCC;
+     box-shadow: 0px 3px 6px #00000047;
+     height: auto;
+     width: 85%;
+     padding: 30px 20px;
+     position: relative;
+ }
+
+ #mainMiddleCabinet .companyNameBoxes .obxcompany {
+     display: block;
+     color: #35485C;
+     font-size: 16px;
+     font-weight: 700;
+     margin: 5px 0;
+     line-height: 1.5;
+ }
+
+ #mainMiddleCabinet .companyNameBoxes .obxAddress {
+     display: block;
+     color: #212121;
+     font-size: 14px;
+     font-weight: 500;
+     width: 80%;
+ }
+
+ #mainMiddleCabinet .companyNameBoxes .angieListing {
+     position: absolute;
+     right: 5%;
+     bottom: 7%;
+ }
+
+ #mainMiddleVideo {
+     margin-top: 60px;
+     background: url(https://smhttp-ssl-25623-media.nexcesscdn.net/media/wysiwyg/design-bg.png) no-repeat;
+     padding: 40px 20px;
+     background-size: cover;
+     background-position: center;
+ }
+
+ #mainMiddleVideo .videoTexts {
+     text-align: center;
+     padding: 10px 0;
+ }
+
+ #mainMiddleVideo .videoTexts img {
+     width: 25%;
+     margin-bottom: 10px;
+ }
+
+ #mainMiddleVideo .videoTexts p {
+     font-size: 34px;
+     color: #fff;
+     font-weight: 700;
+     line-height: 1.1;
+ }
+
+ #mainMiddleVideo .videoTexts span {
+     font-size: 34px;
+     color: #fff;
+     font-weight: 500;
+     display: block;
+     width: 88%;
+     margin: 0 auto;
+     margin-top: -20px;
+     line-height: 1.2;
+     margin-bottom: 20px;
+ }
+
+ #mainMiddleVideo .imageVideo {
+     background: #CCCCCC;
+     padding: 10px;
+     width: 90%;
+     margin: 3% auto;
+ }
+
+ /*ADS*/
+ #showRoomAds {
+     margin-top: 90px;
+     margin-bottom: 75px;
+ }
+
+ #showRoomAds img {
+     max-width: 100%;
+ }
+
+ /*REGION SPECIFIED*/
+ .showImage {
+     padding: 0;
+     background: url('{{media url="wysiwyg/cleveland-left.jpg"}}') no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .showImage img {
+     max-width: 100%;
+ }
+
+ #mainShowroom .mainTopH1 {
+     padding: 25px 30px 25px 35px;
+ }
+
+ #mainShowroom .mainTopH1 .buttonImage img {
+     width: 36%;
+     margin-right: 20%;
+     margin-top: -18px;
+ }
+
+ #mainShowroom .mainTopH1 .buttonImage {
+     margin-top: 30px;
+ }
+
+
+ /*Gallery & Products*/
+ .homepro-title {
+     text-align: right !important;
+ }
+
+ .cnt-right {
+     margin-top: -60px;
+     margin-bottom: 15px;
+ }
+
+ .photo-gallery-main div.photo-gallery:first-child {
+     padding: 0 25px;
+     margin-top: -40px;
+ }
+
+ .photo-gallery ul li {
+     width: 90%;
+ }
+
+ /*Media Queries */
+ @media only screen and (max-width:1180px) {
+     #mainShowroom .mainTopH1 .buttonImage img {
+         width: 40%;
+         margin-right: 2%;
+         margin-top: -10px;
+     }
+
+     .mainOverlay {
+         width: 44%;
+     }
+
+     #mainMiddle .showroomCalendar {
+         width: 27%;
+     }
+ }
+
+ @media only screen and (max-width:1170px) {
+     #mainShowroom .mainTop #map {
+         height: 480px;
+     }
+ }
+
+ @media only screen and (max-width:992px) {
+     .pageWidth {
+         max-width: 960px;
+     }
+
+     #mainMiddleVideo .imageVideo {
+         margin: 10% auto;
+     }
+
+     #mainMiddle .showroomCalendar {
+         width: 35%;
+     }
+
+     .mainOverlay {
+         width: 43%;
+     }
+
+     #mainShowroom .mainTop #map {
+         height: 530px;
+     }
+
+     #showRoomAds {
+         margin-top: 0;
+         margin-bottom: 0;
+     }
+ }
+
+ @media only screen and (max-width:768px) {
+     .mainOverlay {
+         width: auto;
+         position: initial;
+     }
+
+     #mainShowroom .showH1Block {
+         width: 90%;
+     }
+
+     #mainMiddle2 .buttonOverImage {
+         height: 320px;
+         display: block;
+     }
+
+     .changeIt {
+         width: 86%;
+     }
+
+     p.obxBoldBlue {
+         margin-top: 0;
+     }
+
+     p.obxCabinetP {
+         padding: 0;
+     }
+
+     #mainMiddleCabinet .companyNameBoxes {
+         width: 90%;
+         margin: 20px 0;
+     }
+
+     #mainMiddleVideo .videoTexts img {
+         margin: 10px 0;
+     }
+
+     #showRoomAds {
+         margin-top: 0;
+         margin-bottom: 0;
+     }
+
+     .showImage {
+         height: 350px;
+     }
+
+     #mainShowroom .mainTopH1 {
+         width: 86%;
+     }
+
+     #mainMiddle .calendarBorder {
+         height: 35px;
+         width: 35px;
+     }
+
+     #mainMiddle .showroomCalendar {
+         width: 20%;
+     }
+
+     #mainMiddle2 .buttonOverImage button {
+         position: absolute;
+         left: 50%;
+         transform: translate(-50%, -50%);
+     }
+
+     #showRoomAds img {
+         margin: 10px 0;
+     }
+
+     #mainShowroom .mainTopH1 .buttonImage img {
+         margin-right: 5%;
+     }
+
+     #mainMiddleVideo .imageVideo {
+         margin: 0 auto;
+     }
+
+     #mainShowroom .mainTopH1 .buttonImage img {
+         margin-top: -18px;
+     }
+
+     #mainShowroom .mainTop #map {
+         height: 450px;
+     }
+
+     .photo-gallery-main div.photo-gallery:first-child {
+         margin-top: -40px;
+         margin-bottom: 20px;
+         text-align: center;
+     }
+ }
+
+ @media only screen and (max-width:576px) {
+     #mainMiddle #showRoomTimes .obxtimeAndDays .obxday {
+         font-size: 16px;
+     }
+
+     #mainMiddle #showRoomTimes .obxtimeAndDays .obxtime {
+         font-size: 16px;
+     }
+
+     .pageWidth {
+         max-width: 540px;
+     }
+
+     .bannerTopCabinets .savingBlock {
+         width: 50%;
+     }
+
+     .mainOverlay {
+         width: 90%;
+     }
+
+     #mainMiddle .showroomCalendar {
+         width: 25%;
+     }
+
+     #mainShowroom .mainTopH1 .buttonImage img {
+         margin-bottom: 10px;
+         margin-top: 0;
+     }
+
+     .photo-gallery-main div.photo-gallery:first-child {
+         padding: 0;
+     }
+
+     .bannerTopCabinets {
+         height: 440px;
+     }
+ }
+
+
+ body {
+     margin: 0;
+     background-color: #fff;
+     font-weight: 500;
+ }
+
+ h1 {
+     color: #009D7D;
+     font-size: 34px;
+ }
+
+ h2 {
+     color: #4B87C5;
+     font-size: 32px;
+     font-weight: 500;
+ }
+
+ p {
+     font-size: 14px;
+ }
+
+ .obxremovePadding {
+     padding: 0 !important;
+ }
+
+ /*SHOWROOM SPECIFIED*/
+     {
+     font-family: 'Maven Pro', sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+
+ /*TOP BANNER*/
+ .bannerTopCabinets {
+     background: url(../assets/BristolChocolate.png);
+     height: 394px;
+     background-size: cover;
+     position: relative;
+ }
+
+ .bannerTopCabinets .savingBlock {
+     background-color: rgba(53, 72, 92, .69);
+     position: absolute;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 0;
+     top: 15%;
+     text-align: center;
+     width: 30%;
+     color: #fff;
+     padding: 20px 20px 40px 20px;
+     width: 500px;
+     min-height: 225px;
+ }
+
+ .showroomTitle {
+     font-size: 50px;
+     line-height: 1;
+ }
+
+ .showroomBlack {
+     font-weight: 900;
+     font-size: 34px;
+     margin: 5px 0;
+ }
+
+ .obxUppercase {
+     text-transform: uppercase;
+ }
+
+ /*BUTTONS*/
+ .showBtn {
+     padding: 15px 25px;
+     color: white;
+     border: none;
+     min-width: 180px;
+ }
+
+ a {
+     text-decoration: none;
+     font-size: 12px;
+     font-weight: 700;
+     color: #fff;
+ }
+
+ .salmon {
+     background-color: #FF704D;
+ }
+
+ .green {
+     background-color: #0D9C7D;
+ }
+
+ /*MAIN CONTENT*/
+ #mainShowRoom {
+     margin-top: 40px;
+     margin-bottom: 40px;
+ }
+
+ #mainShowRoom .mainOverlay {
+     background-color: #35485C;
+     position: absolute;
+     width: 100%;
+     padding: 20px;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     display: flex;
+ }
+
+ #mainShowRoom .mainOverlay .showText {
+     width: 65%;
+     color: #fff;
+ }
+
+ #mainShowRoom .mainTop {
+     border: 1px solid #CCCCCC;
+     box-shadow: 0px 3px 6px #00000029;
+     position: relative;
+     background: #fff;
+ }
+
+ #mainShowRoom .mainTop #map {
+     width: 100%;
+     height: 400px;
+     background-color: grey;
+ }
+
+ #mainShowRoom .showH1Block {
+     padding: 20px;
+ }
+
+ #mainShowRoom .mainOverlay .showText p {
+     margin-bottom: 5px;
+     font-size: 18px;
+ }
+
+ #mainShowRoom .mainOverlay .showText .addressHere {
+     font-size: 14px;
+     display: block;
+     margin-bottom: 3px;
+ }
+
+ /*Middle 1*/
+ #mainMiddle {
+     margin-top: 40px;
+     margin-bottom: 40px;
+ }
+
+ #mainMiddle .showroomFloats {
+     display: flex;
+ }
+
+ #mainMiddle img {
+     width: 80px;
+ }
+
+ #mainMiddle span {
+     width: 20%;
+ }
+
+ #mainMiddle .showroomFloats h2 {
+     width: 88%;
+     margin-left: 2%;
+ }
+
+ #mainMiddle .calendarBorder {
+     border: 1px solid #CCCCCC;
+     box-shadow: 0px 3px 6px #00000029;
+     position: relative;
+     width: 50px;
+     height: 50px;
+ }
+
+ #mainMiddle .calendarBorder .topBlue {
+     width: 100%;
+     height: 10px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     background-color: #35485C;
+ }
+
+ #mainMiddle #showRoomTimes ul li {
+     list-style: none;
+     display: flex;
+     margin: 15px 0;
+ }
+
+ #mainMiddle #showRoomTimes ul {
+     padding: 0 5px;
+ }
+
+ #mainMiddle #showRoomTimes {
+     display: flex;
+ }
+
+ #mainMiddle #showRoomTimes .leftShowroomColumn,
+ #mainMiddle #showRoomTimes .rightShowroomColumn {
+     width: 50%;
+ }
+
+ #mainMiddle #showRoomTimes .calendarLetter {
+     position: absolute;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 0;
+     top: 30%;
+     width: 100%;
+     color: #FF704D;
+     font-size: 16px;
+     font-weight: 700;
+     text-align: center;
+ }
+
+ #mainMiddle .showroomCalendar {
+     width: 25%;
+ }
+
+ #mainMiddle #showRoomTimes .obxtimeAndDays {}
+
+ #mainMiddle #showRoomTimes .obxtimeAndDays .obxday {
+     color: #4B87C5;
+     text-transform: uppercase;
+     font-weight: 700;
+     font-size: 20px;
+     display: block;
+ }
+
+ #mainMiddle #showRoomTimes .obxtimeAndDays .obxtime {
+     color: #212121;
+     font-size: 20px;
+ }
+
+ /*MIDDLE 2*/
+ #mainMiddle2 {
+     margin-top: 40px;
+     margin-bottom: 40px;
+     border: 1px solid #CCCCCC;
+     box-shadow: 0px 3px 6px #00000029;
+     position: relative;
+     background: #fff;
+ }
+
+ #mainMiddle2 .buttonOverImage {
+     background: url('../assets/image-left@2x.png') no-repeat;
+     background-size: cover;
+     min-height: 37%;
+     position: relative;
+     margin: 0;
+     padding: 0;
+ }
+
+ #mainMiddle2 .buttonOverImage button {
+     position: absolute;
+     left: 19%;
+     right: 0;
+     bottom: 40px;
+     text-align: center;
+ }
+
+ #mainMiddle2 .addedPadding {
+     padding: 30px 40px 30px 40px;
+ }
+
+ #mainMiddle2 h2 {
+     margin-bottom: 20px;
+ }
+
+ p.obxBoldBlue {
+     color: #35485C;
+     font-size: 40px;
+     text-align: center;
+     font-weight: 700;
+ }
+
+ p.obxLightBlue {
+     color: #4B87C5;
+     font-size: 32px;
+     font-weight: 500;
+     text-align: center;
+ }
+
+ p.obxCabinetP {
+     padding: 0 60px;
+     text-align: center;
+ }
+
+ /*Middle Cabinets*/
+
+ #mainMiddleCabinet {
+     margin: 20px 0;
+ }
+
+ #mainMiddleCabinet .companyNameBoxes {
+     background: linear-gradient(180deg, #FFFFFF, #CCCCCCCC);
+     border: 1px solid #CCCCCC;
+     box-shadow: 0px 3px 6px #00000047;
+     height: 150px;
+     width: 100%;
+     padding: 20px;
+     position: relative;
+ }
+
+ #mainMiddleCabinet .companyNameBoxes .obxcompany {
+     display: block;
+     color: #35485C;
+     font-size: 16px;
+     font-weight: 700;
+     margin: 5px 0;
+ }
+
+ #mainMiddleCabinet .companyNameBoxes .obxAddress {
+     display: block;
+     color: #212121;
+     font-size: 14px;
+     font-weight: 500;
+     width: 80%;
+ }
+
+ #mainMiddleCabinet .companyNameBoxes .angieListing {
+     position: absolute;
+     right: 5%;
+     bottom: 7%;
+ }
+
+ #mainMiddleCabinet .companyNameBoxes img {
+     width: 14%;
+ }
+
+ #mainMiddleVideo {
+     margin-top: 40px;
+     margin-bottom: 40px;
+     background: black;
+     padding: 40px 20px;
+ }
+
+ #mainMiddleVideo .videoTexts {
+     text-align: center;
+     padding: 10px 0;
+ }
+
+ #mainMiddleVideo .videoTexts img {
+     width: 25%;
+ }
+
+ #mainMiddleVideo .videoTexts p {
+     font-size: 34px;
+     color: #fff;
+     font-weight: 700;
+ }
+
+ #mainMiddleVideo .videoTexts span {
+     font-size: 34px;
+     color: #fff;
+     font-weight: 500;
+     display: block;
+     width: 88%;
+     margin: 0 auto;
+     margin-top: -20px;
+     line-height: 1.2;
+     margin-bottom: 20px;
+ }
+
+ #mainMiddleVideo .imageVideo {
+     background: #CCCCCC;
+     padding: 10px;
+ }
+
+ /*ADS*/
+ #showRoomAds {
+     margin-top: 40px;
+     margin-bottom: 40px;
+ }
+
+ #showRoomAds img {
+     max-width: 100%;
+ }
+
+ /*REGION SPECIFIED*/
+ #mainShowroom .showImage {
+     padding: 0;
+     background-image: url("../assets/cleveland-left.png");
+     background-size: cover;
+     width: 100%;
+ }
+
+ #mainShowroom .showImage img {
+     max-width: 100%;
+ }
+
+ #mainShowroom .mainTopH1 {
+     padding: 30px 35px 20px 35px;
+ }
+
+ #mainShowroom .mainTopH1 .buttonImage img {
+     width: 40%;
+     margin-right: 20%;
+ }
+
+ #mainShowroom .mainTopH1 .buttonImage {
+     margin-top: 30px;
+ }
+
+ /*Media Queries */
+
+ @media only screen and (max-width: 540px) {
+     .bannerTopCabinets .savingBlock {
+         width: 100%;
+         top: 0;
+         height: auto;
+     }
+ }
