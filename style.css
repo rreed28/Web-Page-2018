@@ -27,6 +27,9 @@
 .topMargin {
 	margin-top: 30px;
 }
+ .obxUppercase {
+     text-transform: uppercase;
+ }
 
 /*HEADER & NAVIGATION*/
 /*navigation*/
@@ -99,114 +102,28 @@ INDEX SPECIFIED
  }
 
  /*TOP BANNER*/
- .bannerTopCabinets {
-     background: url(img/dawn-dusk-lake-355423.jpg);
-     height: 394px;
+.bannerTopCabinets { background: url('img/dawn-dusk-lake-355423.jpg'); height: 394px; background-size: cover; position: relative; margin-left: -32%; margin-right: -30%; }
+.callOutBlock { background-color: rgba(1, 27, 53, 0.69); position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; top: 15%; text-align: center; width: 30%; color: #fff; padding: 20px 20px 40px 20px; width: 500px; min-height: 200px; }
+.showroomTitle { font-size: 50px; line-height: 1.2; }
+.showroomBlack { font-weight: 900; font-size: 34px; line-height: 34px; margin: 20px 0; }
+
+ /* BUTTONS */
+.showBtn{padding:15px 25px;color:white;border:none;min-width:180px}
+a{text-decoration:none;font-size:12px;font-weight:700;color:#fff}
+.salmon{background-color:#FF704D}
+.green{background-color:#0D9C7D}
+
+ /* MAIN CONTENT */
+  .showImage {
+     padding: 0;
+     background: url('img/critique-design-designer-17845.jpg') no-repeat;
      background-size: cover;
-     position: relative;
-     margin-left: -32%;
-     margin-right: -30%;
+     background-position: center;
  }
 
- .bannerTopCabinets .savingBlock {
-     background-color: rgba(53, 72, 92, .69);
-     position: absolute;
-     margin-left: auto;
-     margin-right: auto;
-     left: 0;
-     right: 0;
-     top: 15%;
-     text-align: center;
-     width: 30%;
-     color: #fff;
-     padding: 20px 20px 40px 20px;
-     width: 500px;
-     min-height: 200px;
+ .showImage img {
+     max-width: 100%;
  }
-
- .showroomTitle {
-     font-size: 50px;
-     line-height: 1.2;
- }
-
- .showroomBlack {
-     font-weight: 900;
-     font-size: 34px;
-     line-height: 34px;
-     margin: 20px 0;
- }
-
- .obxUppercase {
-     text-transform: uppercase;
- }
-
-
-/*MEDIA QUERIES*/
-
-@media only screen and (max-width:992px) {
-	.full-banner .mainimg-ecommerce { top: -15px; right: -35px; }
-	.mobileCenter { text-align: center; }
-}
-@media only screen and (max-width: 768px) {
-	p { font-size: 16px; }
-	.push-2 { display: block; }
-	#footer .logo { width: 10%; }
-	#footer .logoHeader { font-size: 24px; }
-	#footer .heading { text-align: center; margin: 20px 0; font-size: 24px; }
-	.orangeList-2 { min-height: 150px; }
-	.full-banner-2 .background-dark-article { margin-top: 75px; }
-	.full-banner-2 { min-height: 400px; padding: 0 20px; }
-	.full-banner-2 .mainimg-ecommerce { top: 10px; right: 20px; width: 12% }
-	.pngHeader { width: 20%; }
-	.full-banner { min-height: 420px; padding: 0 20px; }
-	.full-banner .mainimg-ecommerce { right: 0; top: 6%; width: 18%; }
-	.mobilePadding { padding: 20px 0; }
-}
-@media only screen and (max-width: 576px) {
-	.full-banner .mainimg-ecommerce{display:none;}
-	.full-banner-2 .mainimg-ecommerce{display:none;}
-	.full-banner,
-	.full-banner-2{min-height:650px;}
-	nav .logo{width:15%;}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /*BUTTONS*/
- .showBtn {
-     padding: 15px 25px;
-     color: white;
-     border: none;
-     min-width: 180px
- }
-
- a {
-     text-decoration: none;
-     font-size: 12px;
-     font-weight: 700;
-     color: #fff
- }
-
- .salmon {
-     background-color: #FF704D
- }
-
- .green {
-     background-color: #0D9C7D
- }
-
- /*MAIN CONTENT*/
  .mainOverlay {
      background-color: #35485C;
      position: absolute;
@@ -222,20 +139,20 @@ INDEX SPECIFIED
      color: #fff;
  }
 
- #mainShowroom .mainTop {
+ .mainTop {
      border: 1px solid #CCCCCC;
      box-shadow: 0px 3px 6px #00000029;
      position: relative;
      background: #fff;
  }
 
- #mainShowroom .mainTop #map {
+  .mainTop #map {
      width: 100%;
      height: 400px;
      background-color: grey;
  }
 
- #mainShowroom .showH1Block {
+  .showH1Block {
      padding: 20px;
  }
 
@@ -493,30 +410,14 @@ INDEX SPECIFIED
  }
 
  /*REGION SPECIFIED*/
- .showImage {
-     padding: 0;
-     background: url('{{media url="wysiwyg/cleveland-left.jpg"}}') no-repeat;
-     background-size: cover;
-     background-position: center;
- }
 
- .showImage img {
-     max-width: 100%;
- }
 
- #mainShowroom .mainTopH1 {
+  .mainTopH1 {
      padding: 25px 30px 25px 35px;
  }
 
- #mainShowroom .mainTopH1 .buttonImage img {
-     width: 36%;
-     margin-right: 20%;
-     margin-top: -18px;
- }
 
- #mainShowroom .mainTopH1 .buttonImage {
-     margin-top: 30px;
- }
+
 
 
  /*Gallery & Products*/
@@ -540,11 +441,8 @@ INDEX SPECIFIED
 
  /*Media Queries */
  @media only screen and (max-width:1180px) {
-     #mainShowroom .mainTopH1 .buttonImage img {
-         width: 40%;
-         margin-right: 2%;
-         margin-top: -10px;
-     }
+
+
 
      .mainOverlay {
          width: 44%;
@@ -556,7 +454,7 @@ INDEX SPECIFIED
  }
 
  @media only screen and (max-width:1170px) {
-     #mainShowroom .mainTop #map {
+      .mainTop #map {
          height: 480px;
      }
  }
@@ -578,7 +476,7 @@ INDEX SPECIFIED
          width: 43%;
      }
 
-     #mainShowroom .mainTop #map {
+      .mainTop #map {
          height: 530px;
      }
 
@@ -594,7 +492,7 @@ INDEX SPECIFIED
          position: initial;
      }
 
-     #mainShowroom .showH1Block {
+      .showH1Block {
          width: 90%;
      }
 
@@ -633,7 +531,7 @@ INDEX SPECIFIED
          height: 350px;
      }
 
-     #mainShowroom .mainTopH1 {
+      .mainTopH1 {
          width: 86%;
      }
 
@@ -656,19 +554,15 @@ INDEX SPECIFIED
          margin: 10px 0;
      }
 
-     #mainShowroom .mainTopH1 .buttonImage img {
-         margin-right: 5%;
-     }
+
 
      #mainMiddleVideo .imageVideo {
          margin: 0 auto;
      }
 
-     #mainShowroom .mainTopH1 .buttonImage img {
-         margin-top: -18px;
-     }
 
-     #mainShowroom .mainTop #map {
+
+      .mainTop #map {
          height: 450px;
      }
 
@@ -704,10 +598,7 @@ INDEX SPECIFIED
          width: 25%;
      }
 
-     #mainShowroom .mainTopH1 .buttonImage img {
-         margin-bottom: 10px;
-         margin-top: 0;
-     }
+
 
      .photo-gallery-main div.photo-gallery:first-child {
          padding: 0;
@@ -733,44 +624,7 @@ INDEX SPECIFIED
      padding: 0;
  }
 
- /*TOP BANNER*/
- .bannerTopCabinets {
-     background: url(../assets/BristolChocolate.png);
-     height: 394px;
-     background-size: cover;
-     position: relative;
- }
 
- .bannerTopCabinets .savingBlock {
-     background-color: rgba(53, 72, 92, .69);
-     position: absolute;
-     margin-left: auto;
-     margin-right: auto;
-     left: 0;
-     right: 0;
-     top: 15%;
-     text-align: center;
-     width: 30%;
-     color: #fff;
-     padding: 20px 20px 40px 20px;
-     width: 500px;
-     min-height: 225px;
- }
-
- .showroomTitle {
-     font-size: 50px;
-     line-height: 1;
- }
-
- .showroomBlack {
-     font-weight: 900;
-     font-size: 34px;
-     margin: 5px 0;
- }
-
- .obxUppercase {
-     text-transform: uppercase;
- }
 
  /*BUTTONS*/
  .showBtn {
@@ -796,12 +650,12 @@ INDEX SPECIFIED
  }
 
  /*MAIN CONTENT*/
- #mainShowRoom {
+  {
      margin-top: 40px;
      margin-bottom: 40px;
  }
 
- #mainShowRoom .mainOverlay {
+  .mainOverlay {
      background-color: #35485C;
      position: absolute;
      width: 100%;
@@ -812,34 +666,34 @@ INDEX SPECIFIED
      display: flex;
  }
 
- #mainShowRoom .mainOverlay .showText {
+  .mainOverlay .showText {
      width: 65%;
      color: #fff;
  }
 
- #mainShowRoom .mainTop {
+  .mainTop {
      border: 1px solid #CCCCCC;
      box-shadow: 0px 3px 6px #00000029;
      position: relative;
      background: #fff;
  }
 
- #mainShowRoom .mainTop #map {
+  .mainTop #map {
      width: 100%;
      height: 400px;
      background-color: grey;
  }
 
- #mainShowRoom .showH1Block {
+  .showH1Block {
      padding: 20px;
  }
 
- #mainShowRoom .mainOverlay .showText p {
+  .mainOverlay .showText p {
      margin-bottom: 5px;
      font-size: 18px;
  }
 
- #mainShowRoom .mainOverlay .showText .addressHere {
+  .mainOverlay .showText .addressHere {
      font-size: 14px;
      display: block;
      margin-bottom: 3px;
@@ -1084,36 +938,48 @@ INDEX SPECIFIED
  }
 
  /*REGION SPECIFIED*/
- #mainShowroom .showImage {
+  .showImage {
      padding: 0;
      background-image: url("../assets/cleveland-left.png");
      background-size: cover;
      width: 100%;
  }
 
- #mainShowroom .showImage img {
+  .showImage img {
      max-width: 100%;
  }
 
- #mainShowroom .mainTopH1 {
+  .mainTopH1 {
      padding: 30px 35px 20px 35px;
  }
 
- #mainShowroom .mainTopH1 .buttonImage img {
-     width: 40%;
-     margin-right: 20%;
- }
 
- #mainShowroom .mainTopH1 .buttonImage {
-     margin-top: 30px;
- }
 
- /*Media Queries */
 
- @media only screen and (max-width: 540px) {
-     .bannerTopCabinets .savingBlock {
-         width: 100%;
-         top: 0;
-         height: auto;
-     }
- }
+/*MEDIA QUERIES*/
+@media only screen and (max-width:992px) {
+	.full-banner .mainimg-ecommerce { top: -15px; right: -35px; }
+	.mobileCenter { text-align: center; }
+}
+@media only screen and (max-width: 768px) {
+	p { font-size: 16px; }
+	.push-2 { display: block; }
+	#footer .logo { width: 10%; }
+	#footer .logoHeader { font-size: 24px; }
+	#footer .heading { text-align: center; margin: 20px 0; font-size: 24px; }
+	.orangeList-2 { min-height: 150px; }
+	.full-banner-2 .background-dark-article { margin-top: 75px; }
+	.full-banner-2 { min-height: 400px; padding: 0 20px; }
+	.full-banner-2 .mainimg-ecommerce { top: 10px; right: 20px; width: 12% }
+	.pngHeader { width: 20%; }
+	.full-banner { min-height: 420px; padding: 0 20px; }
+	.full-banner .mainimg-ecommerce { right: 0; top: 6%; width: 18%; }
+	.mobilePadding { padding: 20px 0; }
+}
+@media only screen and (max-width: 576px) {
+	.full-banner .mainimg-ecommerce{display:none;}
+	.full-banner-2 .mainimg-ecommerce{display:none;}
+	.full-banner,
+	.full-banner-2{min-height:650px;}
+	nav .logo{width:15%;}
+}
